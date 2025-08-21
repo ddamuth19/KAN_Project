@@ -6,7 +6,7 @@ Skills:
 PyTorch, Hyperparameter Tuning, Regularization (Dropout, Early Stopping), Model Interpretability, Comparative Analysis
 
 Dataset:
-[Diabetes Health Indicators Dataset (Kaggle, 2022)] (https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
+[Diabetes Health Indicators Dataset (Kaggle, 2022)](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
 
 Methodology:
 
