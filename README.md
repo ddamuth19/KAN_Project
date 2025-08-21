@@ -1,4 +1,4 @@
-#Deep Learning in Bioinformatics Using Kolmogorov–Arnold Networks
+# Deep Learning in Bioinformatics Using Kolmogorov–Arnold Networks
 
 Dawson Damuth, Erin Gregoire, and Daniel Viola
 
