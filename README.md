@@ -3,7 +3,7 @@
 A Kolmogorov–Arnold Network (KAN) is a state-of-the-art deep learning model that improves interpretability compared to traditional Multi-Layer Perceptrons (MLPs). In this project, our team of three designed and evaluated a custom KAN to detect diabetes in patients using health indicator data. The goal was to achieve strong predictive performance while providing transparent explanations of feature importance, a critical aspect for healthcare applications.
 
 ### Skills:
-PyTorch, Hyperparameter Tuning, Regularization (Dropout, Early Stopping), Model Interpretability, Comparative Analysis
+PyTorch, Hyperparameter Tuning, Regularization (Dropout, Early Stopping), Model Interpretability, Comparative Analysis, LLM Integration
 
 ### Dataset:
 [Diabetes Health Indicators Dataset (Kaggle, 2022)](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
