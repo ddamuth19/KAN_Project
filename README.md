@@ -1,22 +1,31 @@
 # Deep Learning in Bioinformatics Using Kolmogorov–Arnold Networks
 
-A Kolmogorov–Arnold Network (KAN) is a state-of-the-art deep learning model that improves interpretability compared to traditional Multi-Layer Perceptrons (MLPs). In this project, our team of three designed and evaluated a custom KAN to detect diabetes in patients using health indicator data. The goal was to achieve strong predictive performance while providing transparent explanations of feature importance, a critical aspect for healthcare applications.
+A Kolmogorov–Arnold Network (KAN) is a state-of-the-art deep learning model that improves interpretability compared to traditional Multi-Layer Perceptrons (MLPs). In this project, our team of three built and evaluated a custom KAN to detect diabetes from health indicator data. The goal was to deliver both high predictive accuracy and transparent feature explanations, making the model suitable for clinical decision support and healthcare research.
 
-### Skills:
-PyTorch, Hyperparameter Tuning, Regularization (Dropout, Early Stopping), Model Interpretability, Comparative Analysis, LLM Integration
+### Skills Applied:
+
+- Deep learning model development in PyTorch
+
+- Hyperparameter tuning, dropout regularization, early stopping
+
+- Model interpretability & spline activation visualization
+
+- Comparative analysis with baseline models (MLP, official KAN)
+
+- LLM integration for result explanation
 
 ### Dataset:
 [Diabetes Health Indicators Dataset (Kaggle, 2022)](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
 
 ### Methodology:
 
-- Built, trained, and optimized a custom KAN from scratch in PyTorch.
+- Built, trained, and optimized a custom KAN from scratch in PyTorch
 
-- Implemented baseline models: a standard MLP and the official KAN reference implementation.
+- Implemented baseline models: standard MLP and official KAN reference implementation
 
-- Conducted comparative performance evaluation across all models.
+- Conducted comparative performance evaluations across all models
 
-- Visualized spline activations in conjunction with an LLM to explain feature contributions to predictions.
+- Enhanced interpretability with spline activation visualizations and LLM-based explanations
 
 ### Tools & Technologies:
 
@@ -28,33 +37,35 @@ PyTorch, Hyperparameter Tuning, Regularization (Dropout, Early Stopping), Model 
  
 ### Results & Evaluation:
 
-- Both the custom KAN and MLP achieved 86% accuracy and 0.31 loss on the test dataset.
+- Achieved 86% accuracy and 0.31 loss with both the custom KAN and MLP
 
-- KAN offered superior interpretability, identifying BMI, glucose levels, and blood pressure as top predictors of diabetes.
+- KAN revealed BMI, glucose levels, and blood pressure as top predictors, providing actionable interpretability
 
-- The official KAN reference model achieved 73% accuracy but emphasized different key indicators. (e.g., stroke history, physical activity, income level)
+- Official KAN reference model underperformed (73% accuracy), but highlighted alternative factors such as stroke history and income level
 
-- Findings highlight KAN’s ability to combine competitive performance with transparent feature importance, making it suitable for healthcare decision support.
+- Demonstrated KAN’s ability to pair competitive accuracy with explainability, crucial for healthcare adoption
 
 ### Challenges & Learning:
 
-- Adapting MLP weight vectors into KAN’s learnable spline activations required extensive experimentation
+- Engineered KAN’s learnable spline activations from standard MLP weight vectors
 
-- Gained experience in visualizing learned activation functions and model internals
+- Developed new visualization methods for activation functions and feature importance
 
-- Strengthened skills in comparative evaluation, interpretability, and regularization strategies in deep learning models
+- Strengthened expertise in model interpretability, comparative evaluation, and optimization strategies
 
 ### Contribution:
 
 - Team Members: Dawson Damuth, Erin Gregoire, and Daniel Viola
 
-My Role:
+- My Role:
 
-- Designed and implemented the LLM results interpreter
+  - Designed and implemented the LLM results interpreter
 
-- Contributed to hyperparameter tuning and model optimization
+  - Contributed to hyperparameter tuning and model optimization
 
-- Assisted in comparative evaluation against MLP and official KAN models
+  - Assisted in comparative evaluation against MLP and official KAN models
+ 
+ 
 
 Reference: [KAN: Kolmogorov–Arnold Networks (Liu et al., 2024)](https://arxiv.org/abs/2404.19756)
  
