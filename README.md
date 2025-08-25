@@ -31,7 +31,7 @@ A Kolmogorov–Arnold Network (KAN) is a state-of-the-art deep learning model th
 
 - Programming Language: Python
 
-- Libraries: torch, sklearn, pandas, matplotlib, openai, kagglehub
+- Libraries: `torch`, `sklearn`, `pandas`, `matplotlib`, `openai`, `kagglehub`
 
 - Software: Jupyter Notebook
  
